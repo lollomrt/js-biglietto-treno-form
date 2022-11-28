@@ -1,8 +1,8 @@
-const nome_e_cognome;
-const km;
-const eta;
+let nome_e_cognome;
+let km;
+let eta;
 
-const button_invia = document.getElementById("invia")
+let button_invia = document.getElementById("invia")
 button_invia.addEventListener("click", function(){
     nome_e_cognome = document.getElementById("nome-e-cognome").value
     console.log("nome_e_cognome")
