@@ -29,6 +29,9 @@ body {
     width: 70%;
 }
 
+.width-100 {
+    width: 100%;
+}
 
 h2 {
     color: #fff;
@@ -37,6 +40,10 @@ h2 {
 
 h3 {
     text-transform: uppercase;
+}
+
+h4 {
+    text-transform: capitalize;
 }
 
 .margin-top-bottom-2 {
@@ -133,4 +140,12 @@ input, select {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+}
+
+#offerta {
+    text-transform: capitalize;
+}
+
+.width-100 {
+    width: 100%;
 }
